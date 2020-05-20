@@ -1,0 +1,10 @@
+POST http://localhost:7071/api/GetRates
+Content-Type: application/json
+
+{
+    "user": "nikibobi",
+    "rates": [0.21, 0.52, 0.31, 1.00, 1.90, 191.00, 0.22, 0.13, 0.15, 0.40, 0.71, 0.13, 1.00, 0.31, 30.40],
+    "league": "Standard",
+    "item": "Perandus Coin",
+    "lr": 0.01
+}
